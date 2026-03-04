@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+import './menu.css'
+import React from 'react'
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="tableContainer">
-        <h1 class="heading">Restaurant Menu Card</h1>
+const Menu = () => {
+  return (
+    <div>
+       <div className="tableContainer">
+        <h1 className="heading">Restaurant Menu Card</h1>
         <table border="1">
             <tr >
                 <th>S. No</th>
@@ -125,6 +120,8 @@
         </table>
     </div>
 
-</body>
+    </div>
+  )
+}
 
-</html>
+export default Menu
